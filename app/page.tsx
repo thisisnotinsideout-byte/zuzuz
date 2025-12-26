@@ -1,8 +1,9 @@
 export default function Home() {
   return (
     <main className="min-h-screen p-8">
-      <h1 className="text-4xl font-bold">Welcome to zuzuz</h1>
-      <p className="mt-4">Built with AxisGen</p>
+    <p style={{ fontSize: '16px', color: '#000000', position: 'absolute', left: '161px', top: '102px' }}>
+      Lorem ipsum dolor sit amet
+    </p>
     </main>
   );
 }
