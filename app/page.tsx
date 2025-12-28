@@ -1,9 +1,31 @@
 export default function Home() {
   return (
     <main className="min-h-screen p-8">
-    <button style={{ backgroundColor: '#3b82f6', color: '#ffffff', padding: '12px 24px', borderRadius: '8px', fontSize: '16px', fontWeight: '600', position: 'absolute', left: '505px', top: '204px' }}>
-      Click me
-    </button>
+      <div style={{ position: 'relative', minHeight: '600px' }}>
+      <button style={{
+          "position": "absolute",
+          "left": "347px",
+          "top": "135px",
+          "backgroundColor": "#3b82f6",
+          "color": "#ffffff",
+          "fontSize": "16px",
+          "fontWeight": "600",
+          "padding": "12px 24px",
+          "borderRadius": "8px"
+        }}>
+        Click me
+      </button>
+
+      <p style={{
+          "position": "absolute",
+          "left": "244px",
+          "top": "223px",
+          "color": "#000000",
+          "fontSize": "16px"
+        }}>
+        Lorem ipsum dolor sit amet
+      </p>
+      </div>
     </main>
   );
 }
